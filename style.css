@@ -1,0 +1,1386 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+.main-container{
+    width: 100%;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+
+.nav-section{
+    width: 100%;
+    height: 3.5em;
+    display: flex;
+    align-items: center
+    ;
+    justify-content: space-between;
+padding: 1em;
+}
+
+.left-nav{
+    width: 25%;
+    height: auto;
+
+}
+.left-nav img{
+    height: 50px;
+}
+
+.middel-nav{
+    width: 40%;
+    height: auto;
+    
+ 
+}
+
+.middel-nav ul{
+    display: flex;
+    align-items: center;
+    padding-block: 5px;
+    border: 0.7px solid rgba(100, 99, 99, 0.664);
+    border-radius: 20px;
+    justify-content: space-around;
+    padding-inline: 10px;
+   
+}
+
+.middel-nav ul li{
+    display: flex;
+    text-decoration: none;
+    font-size: large;
+    /* font-weight: 600; */
+}
+
+
+.right-nav{
+    width: 20%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-inline: 10px;
+    gap: 5px;
+
+    
+}
+
+
+.right-nav button{
+    width: 100px;
+    height: 30px;
+border-radius: 20px;
+background-color: transparent;
+border-color: black;
+
+font-size: small;
+font-weight: 600;
+
+}
+
+.right-nav button:last-child{
+    background-color: black;
+    color: white;
+}
+
+
+.content-section{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+
+    
+}
+
+.golf-content{
+    width: 100%;
+    height: auto;
+/* background-color: aqua; */
+display: flex;
+align-content: center;
+justify-content: space-between;
+}
+
+.content-left{
+    width: 60%;
+    height: auto;
+padding-block: 60px;
+
+}
+.content-left h3{
+    font-size: 40px;
+}
+
+.content-right{
+    width: 30%;
+    height: auto;
+    padding-block: 60px;
+   display: flex;
+   flex-direction: column;
+   gap: 50px;
+   font-weight: 300;
+}
+
+.content-right button{
+    width: 160px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 51);
+    font-weight: 700;
+}
+
+
+.golf-box{
+    width: 100%;
+    height: 340px;
+    background: url(./31039257373.png);
+    background-position: center;
+    background-size: cover;
+    /* margin: 20%; */
+    border-radius: 15px;
+padding: 20px;
+display: flex;
+align-items: end;
+justify-content: end;
+}
+
+.box-child{
+    width: 230px;
+    height: 100px;
+    background-color: white;
+    /* padding: 8px; */
+    /* padding-block: 15px; */
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding-inline: 15px;
+    justify-content: space-evenly;
+    font-size: large;
+    border-radius: 15px;
+    
+}
+
+.box-child button{
+    width: 110px;
+/* font-size:; */
+height: 25px;
+background: transparent;
+border-radius: 20px;
+font-weight: 600;
+border-color: rgba(63, 63, 63, 0.212);
+    
+}
+
+
+
+.booking-section{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+}
+
+
+.booking-nav{
+    width: 100%;
+    height: auto;
+    padding-block: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    /* font-weight: 100; */
+}
+
+.booking-area{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-block: 10px;
+}
+
+.area{
+    width: 400px;
+    height: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    border: 0.8px solid rgba(59, 58, 58, 0.192);
+
+}
+
+.area img{
+    height: 70px;
+border-radius: 5px;
+}
+
+
+.area p{
+    font-weight: 590;
+}
+.area span{
+    gap: 14px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    padding-block: 5px;
+}
+
+.area:nth-child(2){
+
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.area button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90px;
+    height: 25px;
+    border-radius: 10px;
+    background-color: white;
+    font-size: 13px;
+    border: 0.7px solid rgba(77, 77, 77, 0.274);
+    font-weight: 700;
+}
+
+
+.courses-section{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+
+.courses{
+    /* width: 400px; */
+    height: 400px;
+    display: flex;
+   
+    flex-direction: column;
+   
+}
+
+.courses:first-child{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap: 20px;
+    padding-inline: 10px;
+    width: 35%;
+    
+    
+}
+
+.courses:first-child h3{
+    font-size: 40px;
+    font-weight: 550;
+    
+}
+
+.courses:first-child p{
+    width: 100%;
+    line-height: 20px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.courses:first-child button{
+    width: 140px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 51);
+    font-weight: 700;
+}
+
+
+.courses:nth-child(2){
+    width: 24%;
+    background: url(./close-up-golf-player_23-2150947215.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+}
+
+
+
+
+.courses:last-child{
+    /* padding-inline: 10px; */
+    width: 25%;
+    
+    position: relative;
+  
+
+}
+.coach{
+position: absolute;
+top: 0%;
+    height: 50%;
+    width: 100%;
+    
+    background: url(./close-up-golf-player_23-2150947229.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 15px;
+
+    border-radius: 15px;
+
+    display: flex;
+    align-items: start;
+    justify-content: end;
+    flex-direction: column;
+gap: 5px;
+}
+
+
+.coach button{
+    position: absolute;
+    top: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 30px;
+    color: black;
+    border-radius: 20px;
+    background-color: white;
+    font-size: 13px;
+    /* border: 0.7px solid rgba(77, 77, 77, 0.274); */
+    font-weight: 700;
+}
+
+
+.coach p{
+    font-size: small;
+    color: white;
+    font-weight: 300;
+}
+
+.coach h5{
+    font-size: 15px;
+    color: white;
+    font-weight: 600;
+}
+
+.join{
+position:absolute;
+bottom: 120px;
+display: flex;
+gap: 20px;
+left: 30px;
+
+}
+
+.join h5{
+    font-size: 13px;
+    font-weight: 700;
+}
+
+
+.join button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90px;
+    height: 35px;
+    color: white;
+    border-radius: 20px;
+    background-color: black;
+    font-size: 13px;
+    /* border: 0.7px solid rgba(77, 77, 77, 0.274); */
+    font-weight: 700;
+}
+
+
+.event-section{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+
+   
+}
+
+.events{
+    background: url(./golf-clubs-balls-on-green-260nw-2501059443.jpg);
+    background-position: center;
+    background-size: cover;
+border-radius: 15px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 20px;
+}
+
+
+.event-left{
+    width: 50%;
+    height: auto;
+display: flex;
+align-items: start;
+justify-content: start;
+color: rgba(255, 255, 255, 0.849);
+gap: 30px;
+flex-direction: column;
+padding: 25px;
+}
+
+.event-left h3{
+    font-size: 39px;
+    font-weight: 600;
+}
+
+.event-left p{
+    font-size: small;
+}
+
+.event-left button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 130px;
+    height: 35px;
+    color: black;
+    border-radius: 20px;
+    background-color: yellow;
+    font-size: 13px;
+    /* border: 0.7px solid rgba(77, 77, 77, 0.274); */
+    font-weight: 700;
+
+}
+
+.event-right{
+    width: 50%;
+    height: auto;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+
+}
+
+.successful{
+    width: 200px;
+    height: 100px;
+background-color: white;
+display: flex;
+align-items: start;
+justify-content: center;
+flex-direction: column;
+border-radius: 10px;
+padding: 15px;
+gap: 10px;
+position: absolute;
+bottom: 7%;
+right: 2%;
+}
+
+
+.successful h3{
+    font-size: 35px;
+    color: black;
+    font-weight: 300;
+}
+
+.successful p{
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.651);
+}
+
+
+.prodect-section{
+    width: 100%;
+    height: auto;
+    background-color: #EFF1E4;
+    padding: 20px;
+
+}
+
+.nav-prodect{
+
+    width: 100%;
+    height: auto;
+    padding-block: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+   
+}
+
+.nav-prodect h4{
+    font-size: 54px;
+    font-weight: 540;
+}
+
+.nav-prodect p{
+    font-size: 14px;
+    /* font-weight: 500; */
+    color: rgba(0, 0, 0, 0.664);
+}
+
+
+.prodects{
+    width: 100%;
+    height: auto;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.left-prodect
+{
+    width: 50%;
+    height: auto;
+    display: flex;
+    align-items: end;
+    justify-content: space-around;
+}
+
+.right-prodect{
+    width: 50%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+
+}
+
+.prodect{
+    width: auto;
+    height: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.prodect h5{
+    font-size: 17px;
+}
+
+.prodect p{
+    font-size: 14px;
+}
+.prodect img{
+    height: 200px;
+    border-radius: 10px;
+}
+
+.fooder-prodect{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-block: 20px;
+    background-color:  #EFF1E4;
+}
+
+
+.fooder-prodect button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 35px;
+    color: rgba(255, 255, 255, 0.945);
+    border-radius: 20px;
+    background-color: black;
+    font-size: 13px;
+    /* border: 0.7px solid rgba(77, 77, 77, 0.274); */
+    font-weight: 700;
+}
+
+
+.blog-section{
+    width: 100%;
+    height: auto;
+    padding-block: 60px;
+    padding: 20px;
+
+}
+
+.blog-nav{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+    padding-block: 40px;
+}
+
+.blog-nav h5{
+    font-size: 40px;
+    /* font-weight: 6       00; */
+
+}
+
+.blog-nav p{
+    font-size: 14px;
+}
+
+
+.blogs{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-block: 20px;
+
+}
+
+.blog-left{
+    width: 30%;
+    height: auto;
+    padding: 20px;
+
+}
+
+.blog-box{
+    width: 100%;
+height: 370px;
+background: url(./man-playing-golf-field-with-club_23-2148822937.jpg);
+background-size: cover;
+background-position: center;
+border-radius: 10px;
+padding: 20px;
+display: flex;
+align-items: start;
+justify-content: start;
+flex-direction: column;
+gap: 10px;
+position: relative;
+}
+
+
+.blog-box p{
+
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.63);
+}
+
+
+.blog-box button{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 110px;
+    height: 30px;
+    color: black;
+    border-radius: 20px;
+    background-color: white;
+    font-size: 12px;
+    /* border: 0.7px solid rgba(77, 77, 77, 0.274); */
+    font-weight: 700;
+    position: absolute;
+    bottom: 2%;
+    right: 4%;
+}
+
+
+.blog-right{
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+}
+
+.cards{
+    width: 95%;
+    height: 20%;
+    display: flex ;
+    align-items: center;
+    justify-content:  start;
+    padding: 10px;
+    gap: 13px;
+    border: 0.9px solid rgba(0, 0, 0, 0.192);
+    border-radius: 10px;
+}
+
+.cards span{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    gap:10px;
+}
+
+.cards p{
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.808);
+}
+
+.cards h6{
+    font-size: 14px;
+}
+
+.cards button{
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 25px;
+    color: black;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 0, 0.863);
+    font-size: 12px;
+    /* border: 0.7px solid rgba(77, 77, 77, 0.274); */
+    font-weight: 700;
+
+
+}
+.cards img{
+    height: 90px;
+    border-radius: 10px;
+}
+
+.main-fooder{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.959);
+    color: rgba(255, 255, 255, 0.932);
+}
+
+.fooder{
+    width: 100;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-block: 20px; 
+}
+
+.fooders{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.fooder span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 23px;
+}
+
+.fooders h6{
+    font-size: 25px;
+}
+.fooders a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.822);
+/* font-size: 20px; */
+}
+
+
+
+
+ .hr{
+    width: 100%;
+    
+height: auto;
+padding-block: 5px;
+display: flex;
+align-items: center;
+justify-content: center;
+color: rgba(255, 255, 255, 0.603);
+
+}
+
+
+.last-fooder{
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+padding-inline: 40px;
+}
+
+
+.last-fooder span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.icons{
+    width: 40px;
+    height: 40px;
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 50%;
+border: 0.7px solid rgba(255, 255, 255, 0.63);
+border-color: rgba(255, 255, 255, 0.747);
+color: rgba(255, 255, 255, 0.863);
+}
+
+.last-fooder p{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+.icons i{
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+@media  (max-width:480px) {
+
+
+    .main-container{
+        width: 100%;
+
+        height: auto;
+        position: relative;
+
+    }
+
+
+    .nav-section{
+        width: 100%;
+        height: auto;
+      
+
+    }
+.left-nav{
+    width: 50%;
+
+}
+    .middel-nav{
+        display: none;
+    }
+
+.right-nav{
+    width: 40%;
+}
+
+.content-section{
+    width: 100%;
+    height: auto;
+
+}
+
+.content-section br{
+    display: none;
+}
+.golf-content{
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    /* gap: 10px; */
+}
+
+.content-left{
+    width: 100%;
+    height: auto;
+    padding-block: 0;
+
+}
+
+.content-left h3{
+    font-size: 2em;
+}
+
+.content-right{
+    width: 100%;
+    height: auto;
+    padding: 0%;
+    gap: 10px;
+padding-block: 10px;
+
+}
+
+.content-right button{
+    width: 9em;
+    font-size: 0.8em;
+}
+
+
+.golf-box{
+    width: 100%;
+    height: 15em;
+    display: flex;
+align-items: start;
+justify-content: end;
+}
+
+
+.booking-section{
+    width: 100%;
+    height: auto;
+}
+
+.booking-nav{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-block: 5px;
+
+}
+
+.booking-nav h4{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+
+.booking-area{
+    width: 100%;
+    height: auto;
+    display: flex;
+    /* justify-content: space-evenly; */
+    gap: 20px;
+    /* align-items: ; */
+    flex-direction: column;
+}
+
+
+.area{
+    width:90%;
+}
+
+.area p{
+    font-size: 1em;
+}
+
+.area button{
+    width: 6rem;
+    font-size: 0.8em;
+}
+
+
+.courses-section{
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    /* padding-inline: 20px; */
+}
+
+.courses-section br{
+    display: none;
+    text-align: center;
+}
+
+.courses{
+    width: 100%;
+    height: auto;
+}
+
+.courses:first-child{
+    width: 100%;
+    height: auto;
+    padding-block: 5px;
+}
+
+.courses:first-child button{
+    width: 7rem;
+    font-size: 0.7em;
+}
+
+.courses:first-child h3{
+    font-size: 2em;
+}
+
+
+
+.courses:nth-child(2){
+    display: none;
+}
+
+
+.courses:last-child{
+    /* display: none; */
+    width: 100%;
+    height: 20em;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    /* background-color: aqua; */
+    /* padding-inline: 10px; */
+    
+}
+    
+.coach{
+    width: 95%;
+    height: 10em;
+    position: absolute;
+    top: 5%;
+    right: 2%;
+}
+
+.coach button{
+    width: 5rem;
+    font-size: 0.8em;
+    font-weight: 700;
+}
+
+.coach p{
+    font-size: 0.7em;
+}
+
+.coach h5{
+    font-size: 1 em;
+}
+
+
+
+.join{
+    width: 95%;
+    height: auto;
+    position: absolute;
+    left: 0%;
+    bottom: 17%;
+    left: 2%;
+    gap: 10px;
+    flex-direction: column;
+
+}
+
+.join h5{
+    font-size: 1em;
+}
+
+.join button{
+    width: 8rem;
+    height: 2.8em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8em;
+}
+
+
+.event-section{
+    width: 100%;
+    height: auto;
+}
+
+.events{
+
+    width: 100%;
+    height: 14em;
+    padding: 0;
+    padding-block: 0;
+    display: flex;
+    align-items: start;
+    text-align: start;
+}
+
+.event-left{
+    width: 100%;
+    height: auto;
+    gap: 1em;
+    padding: 1em;
+
+}
+
+.event-left br{
+    display: none;
+
+}
+.event-left h3{
+    font-size: 2em;
+
+
+}
+
+.event-left p{
+    font-size: 0.8em;
+    font-weight: 600;
+}
+
+
+.event-left button{
+    width: 8rem;
+    font-size: 0.8em;
+}
+.event-right{
+    display: none;
+}
+
+.prodect-section{
+    width: 100%;
+    height: auto;
+
+}
+
+.prodect-section br{
+    display: none;
+}
+
+.nav-prodect{
+    width: 100%;
+    height: auto;
+    padding: 1em;
+    gap: 0.5em;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+
+.nav-prodect h4{
+    font-size: 2.5em;
+}
+
+.nav-prodect p{
+    font-size: 0.5;
+    font-weight: 600;
+}
+
+
+.prodects{
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    gap: 1em;
+
+}
+
+.left-prodect{
+    width: 100%;
+    height: auto;
+
+}
+
+
+
+.right-prodect{
+    width: 100%;
+    height: auto;
+
+}
+
+.prodect{
+    width: 100%;
+    height: auto;
+    gap: 5px;
+    padding: 1em;
+}
+
+.prodect img{
+    height: 11em;
+}
+
+.prodect h5{
+    font-size: 1em;
+}
+
+.prodect p{
+
+    font-size: 0.7em;
+}
+
+
+.fooder-prodect{
+    width: 100%;
+    height: auto;
+    padding: 0.6em;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+
+.blog-section{
+    width: 100%;
+    height: auto;
+
+}
+
+.blog-section br{
+    display: none;
+}
+
+.blog-nav{
+    padding-inline: 0;
+    padding-block: 2em;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    gap: 0.5em;
+}
+
+
+.blog-nav h5{
+    font-size: 2.5em;
+    /* font-weight: 600; */
+}
+
+.blog-nav P{
+    font-size: 0.8em;
+}
+
+.blogs{
+    width: 100%;
+    height: auto;
+    padding: 0%;
+}
+
+.blog-left{
+    display: none;
+}
+
+
+.blog-right{
+    width: 100%;
+    height: auto;
+    gap: 1em;
+    padding-block: 1.6em;
+}
+
+.cards{
+    width: 100%;
+    height: 7rem;
+    gap: 1.5em;
+   
+}
+
+.cards img{
+    height: 5.8em;
+}
+
+.cards br{
+    display: none;
+}
+
+.cards span{
+    width: 100%;
+    height: auto;
+gap: 0.4em;
+}
+
+.cards p{
+    font-size: 0.7em;
+}
+
+
+.cards h6{
+    font-size: 0.8em;
+}
+
+.cards button{
+    width: 6rem;
+    font-size: 0.7em;
+}
+
+.main-fooder{
+    width: 100%;
+    height: auto;
+}
+
+
+.fooder{
+    width: 100%;
+    height: auto;
+
+}
+
+.fooders{
+    width: 100%;
+    height: auto;
+    padding: 0%;
+    display: flex;
+    align-items: start;
+    gap: 1em;
+
+}
+
+.fooders span{
+    display: flex;
+    gap: 0.7em;
+}
+
+.fooders:nth-child(2){
+    display: none;
+}
+
+
+.fooders:nth-child(3){
+    display: none;
+}
+
+
+.fooders:nth-child(4){
+    display: none;
+}
+
+
+.hr{
+    width: 100%;
+    font-size: 0.1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.last-fooder{
+    width: 100%;
+    height: auto;
+    padding:0%;
+
+}
+
+.last-fooder p{
+    font-size: 0.8em;
+    font-weight: 600;
+}
+
+.last-fooder span{
+    gap: 0.5em;
+}
+
+.icons{
+    width: 2.5em;
+    height: 2.5em;
+}
+
+
+}
